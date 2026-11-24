@@ -1,0 +1,19 @@
+- generic [ref=f8e2]:
+  - generic "Dunia 3D Amaw Little Universe" [ref=f8e3]
+  - text: ♡
+  - generic [ref=f8e5]:
+    - generic [ref=f8e6]:
+      - generic [ref=f8e7]: ✿ Especially made for Amaw
+      - heading [level=1] [ref=f8e8]:
+        - text: Welcome to
+        - emphasis [ref=f8e9]: your little
+        - text: universe ♡
+      - paragraph [ref=f8e10]: Di dunia kecil ini ada bunga, lima hati penuh cerita, dan satu kejutan yang cuma disiapkan buat kamu. Siap jalan-jalan, Amaw?
+      - button "Mulai petualangan ♡" [ref=f8e11] [cursor=pointer]
+      - generic [ref=f8e12]: Dari Hael, dengan banyak cinta · 3D browser game
+    - generic [ref=f8e13]:
+      - img "Ilustrasi karakter Amaw dengan kacamata dan cardigan pink" [ref=f8e14]
+      - generic [ref=f8e15]:
+        - text: For my favorite girl. ♡
+        - generic [ref=f8e16]: your story begins here
+  - text: ✿ ✿ ✿ ✿ ✿ ♡ ✿
