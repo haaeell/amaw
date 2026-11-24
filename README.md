@@ -32,6 +32,7 @@ Tekan **📸** untuk mode foto: HUD tersembunyi, lalu tekan **Simpan PNG** untuk
 **Laptop:** W/A/S/D atau panah untuk bergerak, Shift untuk berlari, **Spasi** untuk lompat, E untuk interaksi, geser mouse untuk memutar kamera, scroll untuk zoom.
 
 **HP:** Joystick kiri untuk bergerak, tombol panah kanan untuk berlari, **⤴** untuk lompat, tombol ♡ untuk interaksi. Geser area dunia untuk memutar kamera.
+Di HP, ketuk baris misi **♡ 0/5 · Temukan hati** untuk membuka atau menutup detail misi; minimap tetap di kanan atas.
 
 ## Personalisasi
 
@@ -46,7 +47,7 @@ Buka **`content.js`** di editor teks. Semua teks cerita dan musik yang bisa diga
 - `haelGreeting` = ucapan Hael sebelum kejutan ulang tahun.
 - `haelQuestions` = tombol pertanyaan (`question`) dan jawaban Hael (`answer`) di jembatan.
 - `bunnyMessages` = reaksi kelinci saat dielus.
-- `musicFile` = nama file lagu lokal, misalnya `musik.mp3`. Kosong sampai lagu diunggah; setelah mengunggah, isi nama file beserta ekstensi. Bisa juga `lagu/namafile.mp3` untuk subfolder.
+- `musicGame` = `main.mp3` saat menjelajah, `musicGift` = `kado.mp3` saat kartu hadiah dibuka dan adegan lilin. Ganti nama file di sini jika musik diganti; kosongkan untuk tanpa musik. Saat **Main lagi** atau **Lihat dunianya**, musik permainan kembali.
 
 Layar pembuka memakai `amaw.webp` yang dikompres dari ilustrasi Amaw. Karakter 3D dibuat prosedural secara sederhana; untuk karakter yang sangat mirip ilustrasi asli, perlu proses modeling 3D/GLB tambahan.
 Di HP, foto pada layar pembuka tampil utuh. Ketuk fotonya untuk mengirim hati animasi sebelum memulai petualangan.
@@ -55,7 +56,7 @@ Di HP, foto pada layar pembuka tampil utuh. Ketuk fotonya untuk mengirim hati an
 ## Catatan
 
 - Progress kelima hati disimpan di `localStorage` browser; tombol **Main lagi** mengulang cerita.
-- Tombol ♫ menghidupkan atau mematikan lagu dan semua efek suara (langkah, hati, kelinci, air mancur, kejutan). Lagu dimulai setelah **Mulai petualangan**, berulang otomatis, dan berhenti sementara saat suara dimatikan. Jika file belum ada, efek suara tetap bisa dimainkan; unggah lagunya lalu buka ulang halaman.
+- Tombol ♫ menghidupkan atau mematikan lagu dan semua efek suara (langkah, hati, kelinci, air mancur, kejutan). Volume musik 20%, turun sesaat ke 8% saat efek penting berbunyi. Lagu dimulai setelah **Mulai petualangan**, berulang otomatis, dan berhenti sementara saat suara dimatikan.
 - Render dunia berhenti saat tab tersembunyi atau layar pembuka tampil; animasi dekorasi mengikuti preferensi gerak perangkat.
 - Game dan musik bisa dimainkan offline setelah file lagu tersedia.
 - Browser atau perangkat yang tidak mendukung WebGL 2 tidak bisa menampilkan dunia 3D.
