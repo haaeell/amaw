@@ -50,6 +50,7 @@ Buka **`content.js`** di editor teks. Semua teks cerita dan musik yang bisa diga
 
 Layar pembuka memakai `amaw.webp` yang dikompres dari ilustrasi Amaw. Karakter 3D dibuat prosedural secara sederhana; untuk karakter yang sangat mirip ilustrasi asli, perlu proses modeling 3D/GLB tambahan.
 Di HP, foto pada layar pembuka tampil utuh. Ketuk fotonya untuk mengirim hati animasi sebelum memulai petualangan.
+`favicon.png` menampilkan wajah Amaw di tab browser; `og-amaw.jpg` menjadi pratinjau saat link `https://amaw.mandiridev.my.id/` dibagikan. Unggah kedua file ke root domain bersama `index.html` agar pratinjau WhatsApp tersedia.
 
 ## Catatan
 

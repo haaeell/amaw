@@ -1,0 +1,14 @@
+- generic [ref=f18e2]:
+  - generic "Dunia 3D Amaw Little Universe" [ref=f18e3]
+  - text: ♡
+  - generic [ref=f18e5]:
+    - generic [ref=f18e6]:
+      - heading "Hai, Amaw ♡" [level=1] [ref=f18e7]
+      - paragraph [ref=f18e8]: Lima hati, satu kejutan. Siap jalan-jalan, Amaw? ♡
+      - button "Mulai petualangan ♡" [ref=f18e9] [cursor=pointer]
+    - generic [ref=f18e10]:
+      - button "Kirim hati untuk Amaw" [ref=f18e11] [cursor=pointer]:
+        - img "Ilustrasi karakter Amaw dengan kacamata dan cardigan pink" [ref=f18e12]
+      - generic [aria-hidden]: ♥
+      - generic: For my favorite girl. ♡
+  - text: ✿ ✿ ✿ ✿ ✿ ♡ ✿
